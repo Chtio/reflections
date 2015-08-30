@@ -8,3 +8,10 @@ What value do you think it offers?
 
   It is only a temporary space used before committing, allowing user to custom
   contents to commit.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+  By adding my working directory modifications to the staging area using the
+  "git add" command. Then "git diff --staged" displays difference between
+  staging area and last commit.
