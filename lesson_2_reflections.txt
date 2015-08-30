@@ -15,3 +15,10 @@ change?
   By adding my working directory modifications to the staging area using the
   "git add" command. Then "git diff --staged" displays difference between
   staging area and last commit.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+  Branches would be helpful for adding progressively experimental features or
+  translations. Branches help by making those modification without impacting
+  initial project yet, i.e. the master branch.
