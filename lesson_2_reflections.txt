@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+  Git adds an hidden metadata folder called ".git" but don't make any initial
+  commit.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+  It is only a temporary space used before committing, allowing user to custom
+  contents to commit.
