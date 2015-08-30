@@ -22,3 +22,8 @@ organized? How would branches help?
   Branches would be helpful for adding progressively experimental features or
   translations. Branches help by making those modification without impacting
   initial project yet, i.e. the master branch.
+
+How do the diagrams help you visualize the branch structure?
+
+  By graphically display branches with their names, and related commits ordered
+  chronologically into it.
