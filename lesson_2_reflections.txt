@@ -27,3 +27,12 @@ How do the diagrams help you visualize the branch structure?
 
   By graphically display branches with their names, and related commits ordered
   chronologically into it.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+  When merging branches together, Git automatically determines which parts of
+  code have been added and which ones have been deleted, using a built-in
+  strategy called "recursive". We have to represent the diagram manually cause
+  Git automatically sort merged commit by timestamps, so parent commits are not
+  visible anymore.
