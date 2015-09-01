@@ -9,12 +9,16 @@ automatically stay up-to-date with your remote repository?
 
     When pulling, Git automatically merges what is on remote repo, that may
     introduce new issues in the code I am working on. Moreover, if there are a
-    lot of contributors, Git would have to make a lot of pull. 
+    lot of contributors, Git would have to make a lot of pull.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    - Forks are a concept of GitHub. It allows copying a GitHub repo into yours
+    GitHub repos. Link to original repo also appears.
+    - Clones are local copy of another local repo, or a remote one. Reference
+    to original author is lost.
+    - Branches are copies of code inside one repo, local or remote.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
