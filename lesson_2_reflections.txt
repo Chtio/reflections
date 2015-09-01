@@ -36,3 +36,16 @@ the diagram the way we do?
   strategy called "recursive". We have to represent the diagram manually cause
   Git automatically sort merged commit by timestamps, so parent commits are not
   visible anymore.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+  Pros:
+  - procedurial and so fast merging unless two people edit the same code
+  - generate commit message with files implied in a conflict
+  Cons:
+  - When two people edit the same code, it makes a conflict
+  - Git does not have experience on the project so it can not solve
+  conflicts
+  - You have to trust what Git is doing
+  
