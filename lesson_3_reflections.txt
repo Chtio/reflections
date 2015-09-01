@@ -33,9 +33,13 @@ and what would be harder?
     stored on a distant server for example. It would be easier to directly edit
     file without having to clone a repo nor making frequent commits. But it
     would be impossible that two collaborators work at the same time, nor
-    propose updates without editing original files. 
+    propose updates without editing original files.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I would make changes in a separate branch to make modification without
+    changing original code, such as adding a new feature. When I make this
+    branch in a pull request, I would also benefit from the collaborative
+    perspective : can be usefull for a code review for example. Making changes
+    directly on master can be easier if I am the only contributor.
